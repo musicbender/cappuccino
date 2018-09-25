@@ -32,22 +32,6 @@ const testServer = config => {
   });
 
   return bs;
-
-  // watch for changes
-  // if (watch) {
-  //   bs.watch(files, { ignored }).on("change", () => {
-  //     console.log(logProcessing('Changes detected. Reloading tests...'));
-  //     setupTest()
-  //       .then(() => {
-  //         invalidate(files);
-  //         runMocha();
-  //         bs.reload();
-  //       })
-  //       .catch(err => {
-  //         console.log(logError(err));
-  //       });
-  //   });
-  // }
 }
 
 export default testServer;

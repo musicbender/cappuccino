@@ -1,7 +1,7 @@
 {
-  "name": "@ncw/cappuccino",
+  "name": "cappuccino",
   "version": "1.1.2",
-  "description": "Delicious and caffinated javascript testing enviroment for NCW web projects",
+  "description": "Delicious and caffinated javascript testing enviroment",
   "engines": {
     "npm": ">=3.0.0",
     "node": ">=4.0.0"
@@ -11,12 +11,8 @@
     "dist"
   ],
   "author": {
-    "name": "NCWest, NCSoft Corp.",
-    "url": "https://www.ncsoft.com"
+    "name": "Pat Jacobs",
   },
-  "contributors": [
-    "Pat Jacobs <pjacobs@ncsoft.com>"
-  ],
   "license": "UNLICENSED",
   "keywords": [
     "unit test",
@@ -25,13 +21,6 @@
     "mocha",
     "testing"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git-codecommit.us-west-2.amazonaws.com/v1/repos/ncw-cappuccino"
-  },
-  "publishConfig": {
-    "registry": "https://npm.ncwest.com"
-  },
   "scripts": {
     "clean": "rimraf ./dist && mkdir dist",
     "build": "npm run clean && babel src --presets babel-preset-env --out-dir dist",
@@ -42,7 +31,7 @@
     "postversion": "git push && npm push --tag"
   },
   "dependencies": {
-    "@ncw/mochawesome": "1.0.5",
+    "mochawesome": "1.0.5",
     "browser-sync": "^2.23.3",
     "chalk": "^2.3.2",
     "child-process-promise": "^2.2.1",

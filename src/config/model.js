@@ -75,7 +75,7 @@ const getConfigModel = type => {
     },
     pageTitle: {
       type: 'string',
-      default: 'NC Web Test'
+      default: 'Test'
     },
     globPattern: {
       type: 'string',

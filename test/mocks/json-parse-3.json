@@ -1,0 +1,28 @@
+module.exports = {
+  "races": {
+    "gon": {
+      "name": "Gon",
+      "url": "/de/game/races#races-gon"
+    },
+    "jin": {
+      "name": "Jin",
+      "url": "/de/game/races#races-jin"
+    },
+    "yun": {
+      "name": "Yun",
+      "url": "/de/game/races#races-yun"
+    },
+    "lyn": {
+      "name": "Lyn",
+      "url": "/de/game/races#races-lyn"
+    }
+  },
+  "racesmain": "Wichtigste Völker",
+  "share": "Teilen",
+  "sns": {
+    "facebook": "https://www.facebook.com/BladeAndSoul",
+    "twitter": "https://www.twitter.com/bladeandsoul_DE",
+    "youtube": "https://www.youtube.com/bladeandsoul",
+    "twitch": "http://www.twitch.tv/bladeandsoul"
+  }
+}

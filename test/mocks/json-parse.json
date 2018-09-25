@@ -1,0 +1,13 @@
+module.exports = {
+  "global": {
+    "learnmore": "Learn More",
+    "agegate": {
+      "header": "Please Enter Your Birthday",
+      "dob": {
+        "month": "MM",
+        "day": "DD",
+        "year": "YYYY"
+      }
+    }
+  }
+}

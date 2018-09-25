@@ -1,0 +1,41 @@
+const mockFileArrays = [
+  [
+    "config.js",
+    "load.test.js",
+    "gnb.test.js"
+  ],
+  [
+    "config.js",
+    "load.test.js",
+    "gnb.test.js",
+    "wut.test.js",
+    "huh.test.js",
+    "yer.test.js",
+    "uhh.test.js"
+  ],
+  [
+    "load.test.js",
+    "gnb.test.js",
+    "wut.test.js",
+  ],
+  [
+    "config.js"
+  ],
+  [
+    "config.js",
+    "load.test.js",
+    "nope.js"
+  ],
+  [
+    "config.js",
+    "nothing.js",
+    "nope.js"
+  ],
+  [
+    "config.js",
+    "nothing.test.css",
+    "nope.test.html"
+  ],
+];
+
+export default mockFileArrays;

@@ -1,0 +1,18 @@
+module.exports = {
+  "footer": {
+    "gamerating": {
+      "url": "http://www.pegi.info/fr/index/",
+      "imgsrc": "/img/global/logo-pegi-16-fr.png",
+      "alttext": "PEGI"
+    },
+    "followus": "Suivez-nous",
+    "legal": "&copy;2013–2017 NCSOFT Corporation. Tous droits réservés. Blade & Soul, PLAYNC, NCSOFT, le logo NC et tous les logos et dessins associés à NCSOFT sont les marques commerciales et/ou déposées de NCSOFT Corporation. Toutes les autres marques commerciales et/ou déposées appartiennent à leurs propriétaires respectifs.",
+    "localizationpicker": {
+      "currentlanguage": "Français"
+    },
+    "ncsoftcorp": "NCSOFT Corporation",
+    "ncsoftglobal": "NCSOFT Global",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité"
+  }
+}
